@@ -1,5 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
-@charset "UTF-8"; /*!
+@charset "UTF-8";
+.homepage-out {
+  background-image: url("https://images.unsplash.com/photo-1486556396467-d83d2b23514b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+
+.landing-div {
+  width: 550px;
+  height: 150px;
+}
+.landing-div .btn-primary-outline {
+  background-color: transparent;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  color: white;
+}
+.landing-div .btn-primary-outline:hover {
+  background-color: rgba(246, 244, 244, 0.372);
+  color: black;
+}
+
+/*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
